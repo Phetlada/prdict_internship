@@ -109,6 +109,9 @@ img{
 .logo{
   height: 50px;
 }
+.logo3{
+  height: 40px;
+}
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
@@ -116,6 +119,9 @@ img{
   }
   .logo{
   height: 50px;
+}
+.logo3{
+  height: 30px;
 }
 }
 </style>

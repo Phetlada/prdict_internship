@@ -108,7 +108,11 @@ body{
   background-position:center;
   background-attachment:fixed;
 }
-
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
@@ -143,8 +147,8 @@ input[type=text], select, textarea {
 
 <center>
 <h1>แบบทดสอบ</h1>
-<div class="container" align="center">
-  <form action="/action_page.php" style="width:80%">
+<div class="container" align="center" >
+  <form  method="POST" action="/dss_webproject/model.php" style="width:80%">
     <div class="row">
       <div class="col-25">
         <label for="fname">ชื่อ :</label>
@@ -311,7 +315,7 @@ input[type=text], select, textarea {
     </div>
     <br>
     <div class="row">
-      <input type="submit" value="ทำนาย">
+      <input type="submit" value="ทำนาย" name="submit">
     </div>
   </form>
 </div>

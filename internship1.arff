@@ -1,0 +1,18 @@
+@relation unseen_model
+
+@attribute 'DATA COMMU & COMP NETWORK' numeric
+@attribute 'DATA STRUCTURE & ALGORITHM' numeric
+@attribute 'DISCRETE MATH & APPLICATION' numeric
+@attribute 'ENGLISH I' numeric
+@attribute 'ENGLISH II' numeric
+@attribute 'OBJECT-ORIENTED PROGRAM' numeric
+@attribute 'SYSTEM ANALYSIS & DESIGN' numeric
+@attribute 'WEB PROGRAMMING' numeric
+@attribute class {A,B,C}
+
+@data
+
+3.5,3.5,3,2,2,2,3.5,4,A
+-1,2.5,2,1,2.5,1.5,2.5,2.5,B
+2,-1,2.5,1.5,1,1,2.5,1.5,C
+1.5,1,2.5,3,3,1.5,0,2.5,?
